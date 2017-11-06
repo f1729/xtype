@@ -1,0 +1,22 @@
+{
+  "name": "gtp",
+  "version": "0.1.0",
+  "description": "Game to type anythinng",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require babel-register ./test/**/*.spec.js"
+  },
+  "author": "Fredy M (saiberz@hotmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {}
+}
